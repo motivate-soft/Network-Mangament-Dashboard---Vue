@@ -1,0 +1,39 @@
+{
+  "name": "wcm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.2.6",
+    "@amcharts/amcharts4-geodata": "^4.1.4",
+    "axios": "^0.18.0",
+    "vue": "^2.5.17",
+    "vue-moment": "^4.0.0",
+    "vue-native-websocket": "^2.0.12",
+    "vue-router": "^3.0.2",
+    "vuetify": "^1.5.7",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4",     
+    "vue-multiselect": "^2.1.6"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@gfx/zopfli": "^1.0.10", 
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.1",
+    "@vue/cli-service": "^3.2.0",
+    "brotli-webpack-plugin": "^1.0.0", 
+    "compression-webpack-plugin": "^2.0.0", 
+    "node-sass": "^4.9.0", 
+    "sass-loader": "^7.1.0",      
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",     
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-template-compiler": "^2.5.17",
+    "vuetify-loader": "^1.2.1" 
+  }
+}
